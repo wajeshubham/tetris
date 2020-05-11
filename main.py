@@ -1,9 +1,7 @@
 import random
-
 import pygame
 
 pygame.font.init()
-
 
 s_width = 800
 s_height = 700
@@ -386,8 +384,5 @@ def main_menu(surface):
                 if event.key == pygame.K_RETURN:
                     main(surface)
         pygame.display.update()
-
-
-
 
 main_menu(surface)  # start game
